@@ -64,3 +64,16 @@ Writing a binary to the uC
 ```
 stm8flash -c stlinkv2 -p stm8s003?3 -w led.ihx
 ```
+
+Collection of samples
+
+http://www.colecovision.eu/stm8/
+
+disassembling with naken_utils
+
+```
+/opt/naken_asm/naken_util -disasm -stm8 led.ihx
+```
+
+
+
